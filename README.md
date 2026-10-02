@@ -48,6 +48,5 @@ Do you want to continue? (Y/N) n
 ## Known Limitations
 
 - `c_pow` only supports non-negative exponents. A negative exponent returns `1`.
-- All values are `int`, so large results of `*` and `^` can overflow.
 - `%` with negative numbers follows C's rules (the result takes the sign of the left operand).
 - Input is not validated: typing letters where a number is expected can cause unexpected behavior.
