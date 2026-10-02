@@ -27,7 +27,7 @@ int main() {
 
             case '-': printf("Result: %d\n",num1 - num2); break;
 
-            case '*': printf("Result: %lld\n",(long long) num1 * num2); break;
+            case '*': printf("Result: %lld\n",(long long) num1 * (long long) num2); break;
 
             case '/': switch(num2) {
                 case 0: printf("Cannot divide by zero\n"); break;
