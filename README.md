@@ -31,7 +31,7 @@ A command-line calculator written in C. It takes two integers and an operator, p
 Compile with any C compiler, for example GCC:
 
 ```bash
-gcc -o SimpleCalculator <your_source_file>.c
+gcc -o SimpleCalculator main.c
 ./SimpleCalculator
 ```
 
